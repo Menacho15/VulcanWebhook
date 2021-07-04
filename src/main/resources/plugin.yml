@@ -1,0 +1,9 @@
+name: VulcanWebhook
+version: ${project.version}
+main: me.victorgamer15.vulcanwebhook.VulcanWebhook
+depend: [ Vulcan ]
+authors: [ VictorGamer15 ]
+description: A simple addon for Vulcan to send a request to a webhook with punish data.
+website: victorgamer15.ml
+commands:
+  vulcanwebhook:
