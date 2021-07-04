@@ -141,7 +141,7 @@ public class DiscordWebhook {
         URL url = new URL(this.url);
         HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
         connection.addRequestProperty("Content-Type", "application/json");
-        connection.addRequestProperty("User-Agent", "FalconAdditionPro");
+        connection.addRequestProperty("User-Agent", "VulcanWebhook");
         connection.setDoOutput(true);
         connection.setRequestMethod("POST");
 
